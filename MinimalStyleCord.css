@@ -1,0 +1,137 @@
+/**
+ * @name MinimalStyleCord
+ * @version 1.0
+ * @description Minimalist Theme for Discord
+ * @source https://github.com/MonolithOrchids/MinimalStyleCord/
+ * @updateUrl https://github.com/MonolithOrchids/MinimalStyleCord/blob/master/MinimalStyleCord.css
+ * @author @dka
+*/
+
+/* Text Chat */
+
+.base_b88801.typing_b88801 {
+    top:-24px !important;
+}
+.channelTextArea_f75fb0 {
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px;
+    border-width: 1px 0px 0px 0px;
+    border-radius: 0;
+}
+.messagesWrapper__36d07 {
+    top: -5px;
+}
+.newMessagesBar__0f481 {
+    top: 10px;
+}
+.visual-refresh .form_f75fb0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* User/Member List */
+.container_c8ffbb .membersWrap_c8ffbb {
+    min-width: 240px;
+}
+.container_c8ffbb,
+.container_c8ffbb .membersWrap_c8ffbb .members_c8ffbb {
+    width: 240px;
+}
+.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d {
+    padding: 0px 0px 0px 12px;
+    margin: 0px 0px 0px -14px;
+}
+.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d .children__91a9d {
+    margin-left: 0px;
+}
+
+/* Group/Thread User/Member List Width Fix */
+.membersWrap_c8ffbb,
+.membersWrap_c8ffbb.hiddenMembers_c8ffbb,
+.members_c8ffbb {
+    min-width: 240px;
+    width: 240px;
+}
+.member__5d473 .container__91a9d {
+    margin-left: 0px;
+}
+
+/* Remove Text Chat Useless Buttons */
+.button__201d5[aria-label='Send a gift'],
+.buttonContainer__74017:has(.button__201d5[aria-label='Open GIF picker']),
+.buttonContainer__74017:has(.button__201d5[aria-label='Open sticker picker']),
+.channelAppLauncher_e6e74f {
+    display: none !important;
+}
+
+/* User Info/Panel */
+.visual-refresh .container__37e49 {
+  padding: auto;
+  margin: auto;
+  width: 100%;
+}
+.visual-refresh .panels_c48ade {
+  left: 65px;
+  bottom: 0px;
+  width: 76%;
+  border-radius: 0;
+  height: 60px;
+  border-width: 1px 0px 0px 0px;
+}
+
+/* Settings Sidebar */
+.standardSidebarView__23e6b .sidebarRegion__23e6b {
+    min-width: 230px;
+    max-width: 570px;
+}
+.standardSidebarView__23e6b .sidebar__23e6b {
+    padding: 16px 0px 16px 12px;
+}
+.standardSidebarView__23e6b .sidebar__23e6b .side_b3f026 .item_b3f026 {
+    margin-bottom: 0px;
+    padding-top: 5.7px;
+    padding-bottom: 5.7px;
+}
+
+/* Chat Emoji */
+.markup__75297 .emoji {
+        height: 1.75rem;
+    width: 2rem;
+}
+.markup__75297 .emoji.jumboable {
+    min-height: 2rem !important;
+    min-width: 2rem;
+}
+
+/* Sticker In Chat */
+.clickableSticker_abd7a8 .assetWrapper__31fc2 {
+    width: 10rem !important;
+    height: 10rem !important;
+}
+
+/* Activity Status / Recent Activity (Members List on Servers)  */
+.content__99f8c>:has(.container__0f2e8), .membersGroup_c8ffbb:has(.headerContainer__095fe) {
+    display: none;
+    }
+
+/* Quest Ads/Pop-up: Remove Button */
+.mask__0d616 {
+    display: none;
+}
+
+/* Remove 'Edit Image with Apps' Button  */
+.hoverButtonGroup__06ab4 {
+    display: none;
+    }
+
+/* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular Add Reaction, Reply and More buttons  */
+.buttonContainer_c19a55 {
+[aria-label*="Click to react with"],
+[aria-label*="Click to remove"],
+[aria-label*="Forward"],
+    .separator_f84418 {
+    display: none;
+    }
+}
