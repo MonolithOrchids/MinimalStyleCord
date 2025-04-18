@@ -1,0 +1,2 @@
+# MinimalStyleCord
+Minimalist Discord Theme
