@@ -8,7 +8,7 @@
 ```https://github.com/MonolithOrchids/MinimalStyleCord/blob/master/MinimalStyleCord.theme.css```
 
 
-Credits to Nakki from UnShittify Discord for the following imports:
+Credits to Nakki from [UnShittify Discord](https://github.com/MaiRiosIPla/unshittify-discord) for the following imports:
 ```css
 @import url("https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css");
 ```
