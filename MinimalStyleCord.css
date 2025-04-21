@@ -62,11 +62,11 @@
   width: 100%;
 }
 .visual-refresh .panels_c48ade {
-  left: 65px;
+  left: 0px;
   bottom: 0px;
-  width: 76%;
+  width: 100%;
   border-radius: 0;
-  height: 60px;
+  /* height: 75px; */
   border-width: 1px 0px 0px 0px;
 }
 
