@@ -57,16 +57,18 @@
 
 /* User Info/Panel */
 .visual-refresh .container__37e49 {
-  padding: auto;
-  margin: auto;
-  width: 100%;
+    padding: auto;
+    margin: 4px;
+    width: 100%;
 }
+
 .visual-refresh .panels_c48ade {
-  left: 0px;
-  bottom: 7px;
-  width: 100%;
-  border-radius: 0;
-  border-width: 1px 0px 0px 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    border-radius: 0;
+    /* height: 75px; */
+    border-width: 1px 0px 0px 0px;
 }
 
 /* Settings Sidebar */
