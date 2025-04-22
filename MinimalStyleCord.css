@@ -55,6 +55,11 @@
     display: none !important;
 }
 
+/* Center Emoji & Attach Buttons */
+.attachWrapper__0923f, .buttons__74017{
+    margin: auto;
+}
+
 /* User Info/Panel */
 .visual-refresh .container__37e49 {
     padding: auto;
