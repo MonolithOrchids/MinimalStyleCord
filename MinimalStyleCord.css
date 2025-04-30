@@ -90,6 +90,13 @@
     padding-bottom: 5.7px;
 }
 
+.sidebarListRounded_c48ade,
+.link__2ea32,
+.children__2ea32 * {
+  border-radius: 0 !important;
+}
+
+
 /* Chat Emoji */
 .markup__75297 .emoji {
         height: 1.75rem;
