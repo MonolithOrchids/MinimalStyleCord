@@ -7,6 +7,11 @@
  * @author @dka
 */
 
+/* Toggle Options */
+:root {
+	--Reaction-Forward-Message-Hover: none;				/* flex = ON, none = OFF */
+}
+
 /* Text Chat */
 .channelTextArea_f75fb0 {
     margin-bottom: 0px;
@@ -134,6 +139,6 @@
 [aria-label*="Click to remove"],
 [aria-label*="Forward"],
     .separator_f84418 {
-    display: none;
+    display: var(--Reaction-Forward-Message-Hover);
     }
 }
