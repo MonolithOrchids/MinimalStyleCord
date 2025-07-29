@@ -53,9 +53,9 @@
 }
 
 /* Remove Text Chat Useless Buttons */
-.button__201d5[aria-label='Send a gift'],
-.buttonContainer__74017:has(.button__201d5[aria-label='Open GIF picker']),
-.buttonContainer__74017:has(.button__201d5[aria-label='Open sticker picker']),
+.button__24af7[aria-label='Send a gift'],
+.buttonContainer__74017:has(.button__24af7[aria-label='Open GIF picker']),
+.buttonContainer__74017:has(.button__24af7[aria-label='Open sticker picker']),
 .channelAppLauncher_e6e74f {
     display: none !important;
 }
