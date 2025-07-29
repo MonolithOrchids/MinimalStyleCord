@@ -1,5 +1,5 @@
 /**
- * @name MinimalStyleCord
+ * @name TEST - MinimalStyleCord
  * @version 1.0
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
@@ -7,9 +7,13 @@
  * @author @dka
 */
 
+/* Credits to Nakki from "UnShittify Discord" for the following imports: */
+@import url("https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css");
+@import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
+
 /* Toggle Options */
 :root {
-	--Reaction-Forward-Message-Hover: none;				/* flex = ON, none = OFF */
+    --Reaction-Forward-Message-Hover: none;             /* flex = ON, none = OFF */
 }
 
 /* Text Chat */
@@ -68,7 +72,7 @@
 /* User Info/Panel */
 .visual-refresh .container__37e49 {
     padding: auto;
-    margin: 4px;
+    margin: 2px;
     width: 100%;
 }
 
