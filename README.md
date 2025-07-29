@@ -6,7 +6,7 @@ For now, this theme is very simplistic, it doesn’t change much, just the size 
 	- Download [**MinimalNight.theme.css**](https://github.com/MonolithOrchids/MinimalStyleCord/blob/master/MinimalStyleCord.theme.css) and navigate to **Settings > Themes** and click **Open Themes Folder** or place the file in **%appdata%/Vencord/themes** and then enable **MinimalStyleCord**.    
 - ***Method 2***: 
 	- Navigate to **Settings > Themes** and go to **Online Themes** tab and in the input field paste in this URL:  
-```https://github.com/MonolithOrchids/MinimalStyleCord/blob/master/MinimalStyleCord.theme.css```
+```https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css```
 
 
 Huge thanks and credits to [Nakki](https://instagram.com/nak.kiwi) from [UnShittify Discord](https://github.com/MaiRiosIPla/unshittify-discord) for the following imports:
