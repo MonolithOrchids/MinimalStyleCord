@@ -17,13 +17,21 @@
 }
 
 /* Text Chat */
+.base_b88801.typing_b88801 {
+    top:-24px !important;
+}
+
 .channelTextArea_f75fb0 {
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     padding-top: 2px;
     padding-bottom: 2px;
     border: 1px;
     border-width: 1px 0px 0px 0px;
     border-radius: 0;
+}
+
+.messagesWrapper__36d07 {
+    top: -10px;
 }
 .visual-refresh .form_f75fb0 {
     padding: 0px !important;
