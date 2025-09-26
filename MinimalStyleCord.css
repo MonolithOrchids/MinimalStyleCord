@@ -131,9 +131,10 @@
 }
 
 /* Activity Status / Recent Activity (Members List on Servers)  */
-.content__99f8c>:has(.container__0f2e8), .membersGroup_c8ffbb:has(.headerContainer__095fe) {
+.membersGroup_c8ffbb:has(.headerContainer__095fe),
+.container__0f2e8 {
     display: none;
-    }
+}
 
 /* Quest Ads/Pop-up: Remove Button */
 .mask__0d616 {
