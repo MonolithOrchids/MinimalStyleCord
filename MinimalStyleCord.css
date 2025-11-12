@@ -68,7 +68,9 @@
 .button__24af7[aria-label='Send a gift'],
 .buttonContainer__74017:has(.button__24af7[aria-label='Open GIF picker']),
 .buttonContainer__74017:has(.button__24af7[aria-label='Open sticker picker']),
-.channelAppLauncher_e6e74f {
+.channelAppLauncher_e6e74f,
+.buttonContainer_e6e74f,
+.app-launcher-entrypoint {
     display: none !important;
 }
 
@@ -112,7 +114,6 @@
 .children__2ea32 * {
   border-radius: 0 !important;
 }
-
 
 /* Chat Emoji */
 .markup__75297 .emoji {
