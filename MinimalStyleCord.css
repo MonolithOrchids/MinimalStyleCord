@@ -17,11 +17,11 @@
 }
 
 /* Text Chat */
-.base_b88801.typing_b88801 {
+.b8880176888cc928-base.b8880176888cc928-typing {
     top:-24px !important;
 }
 
-.channelTextArea_f75fb0 {
+.f75fb00fb7356cbe-channelTextArea {
     margin-bottom: 8px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -30,63 +30,63 @@
     border-radius: 0;
 }
 
-.messagesWrapper__36d07 {
+._36d072eab2b2e737-messagesWrapper {
     top: -10px;
 }
-.visual-refresh .form_f75fb0 {
+.visual-refresh .f75fb00fb7356cbe-form {
     padding: 0px !important;
 }
 
 /* User/Member List */
-.container_c8ffbb .membersWrap_c8ffbb {
+.c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap {
     min-width: 240px;
 }
-.container_c8ffbb,
-.container_c8ffbb .membersWrap_c8ffbb .members_c8ffbb {
+.c8ffbb79449f399c-container,
+.c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-members {
     width: 240px;
 }
-.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d {
+.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-members ._5d473ecff348c314-member ._91a9d7f7e5248a56-layout {
     padding: 0px 0px 0px 12px;
     margin: 5px 0px 0px -14px;
 }
-.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d .children__91a9d {
+.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-members ._5d473ecff348c314-member ._91a9d7f7e5248a56-layout ._91a9d7f7e5248a56-children {
     margin-left: 0px;
 }
 
 /* Group/Thread User/Member List Width Fix */
-.membersWrap_c8ffbb,
-.membersWrap_c8ffbb.hiddenMembers_c8ffbb,
-.members_c8ffbb {
+.c8ffbb79449f399c-membersWrap,
+.c8ffbb79449f399c-membersWrap.c8ffbb79449f399c-hiddenMembers,
+.c8ffbb79449f399c-members {
     min-width: 240px;
     width: 240px;
 }
-.member__5d473 .container__91a9d {
+._5d473ecff348c314-member ._91a9d7f7e5248a56-container {
     margin-left: 0px;
 }
 
 /* Remove Text Chat Useless Buttons */
-.button__24af7[aria-label='Send a gift'],
-.buttonContainer__74017:has(.button__24af7[aria-label='Open GIF picker']),
-.buttonContainer__74017:has(.button__24af7[aria-label='Open sticker picker']),
+._24af7f4d0326ba4f-button[aria-label='Send a gift'],
+._740174f3d6a2c8fe-buttonContainer:has(._24af7f4d0326ba4f-button[aria-label='Open GIF picker']),
+._740174f3d6a2c8fe-buttonContainer:has(._24af7f4d0326ba4f-button[aria-label='Open sticker picker']),
 .channelAppLauncher_e6e74f,
-.buttonContainer_e6e74f,
+.e6e74fd4d1221f53-buttonContainer,
 .app-launcher-entrypoint {
     display: none !important;
 }
 
 /* Center Emoji & Attach Buttons */
-.attachWrapper__0923f, .buttons__74017{
+._0923f156a0410684-attachWrapper, ._740174f3d6a2c8fe-buttons{
     margin: auto;
 }
 
 /* User Info/Panel */
-.visual-refresh .container__37e49 {
+.visual-refresh ._37e49614b9f110a9-container {
     padding: auto;
     margin: 2px;
     width: 100%;
 }
 
-.visual-refresh .panels__5e434 {
+.visual-refresh ._5e434347c823b592-panels {
     left: 0px;
     bottom: 0px;
     width: 100%;
@@ -96,63 +96,63 @@
 }
 
 /* Settings Sidebar */
-.standardSidebarView__23e6b .sidebarRegion__23e6b {
+._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-sidebarRegion {
     min-width: 230px;
     max-width: 570px;
 }
-.standardSidebarView__23e6b .sidebar__23e6b {
+._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-sidebar {
     padding: 16px 0px 16px 12px;
 }
-.standardSidebarView__23e6b .sidebar__23e6b .side_aa8da2 .item_aa8da2 {
+._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-sidebar .aa8da23faa27393c-side .aa8da23faa27393c-item {
     margin-bottom: 0px;
     padding-top: 5.7px;
     padding-bottom: 5.7px;
 }
 
-.sidebarListRounded__5e434,
-.link__2ea32,
-.children__2ea32 * {
+._5e434347c823b592-sidebarListRounded,
+._2ea32c412048f708-link,
+._2ea32c412048f708-children * {
   border-radius: 0 !important;
 }
 
 /* Chat Emoji */
-.markup__75297 .emoji {
+._752971923a1e6683-markup .emoji {
         height: 1.75rem;
     width: 2rem;
 }
-.markup__75297 .emoji.jumboable {
+._752971923a1e6683-markup .emoji.jumboable {
     min-height: 2rem !important;
     min-width: 2rem;
 }
 
 /* Sticker In Chat */
-.clickableSticker_abd7a8 .assetWrapper__31fc2 {
+.abd7a8a2de1017e2-clickableSticker ._31fc2df9348cd84a-assetWrapper {
     width: 10rem !important;
     height: 10rem !important;
 }
 
 /* Activity Status / Recent Activity (Members List on Servers)  */
-.membersGroup_c8ffbb:has(.headerContainer__095fe),
-.container__0f2e8 {
+.c8ffbb79449f399c-membersGroup:has(._095fe51feb41b3bb-headerContainer),
+._0f2e83213c878a13-container {
     display: none;
 }
 
 /* Quest Ads/Pop-up: Remove Button */
-.mask__0d616 {
+._0d6162a4e6a4b802-mask {
     display: none;
 }
 
 /* Remove 'Edit Image with Apps' Button  */
-.hoverButtonGroup__06ab4 {
+._06ab41fd2ef7af3f-hoverButtonGroup {
     display: none;
     }
 
 /* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular Add Reaction, Reply and More buttons  */
-.buttonContainer_c19a55 {
+.c19a557985eb7793-buttonContainer {
 [aria-label*="Click to react with"],
 [aria-label*="Click to remove"],
 [aria-label*="Forward"],
-    .separator_f84418 {
+    .f84418acfdbdfe54-separator {
     display: var(--Reaction-Forward-Message-Hover);
     }
 }
