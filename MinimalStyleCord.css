@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.0
+ * @version 1.30
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -70,6 +70,7 @@
 .buttonContainer__74017:has(.button__24af7[aria-label='Open sticker picker']),
 .channelAppLauncher_e6e74f,
 .buttonContainer_e6e74f,
+.spacer__74017,
 .app-launcher-entrypoint {
     display: none !important;
 }
@@ -95,20 +96,6 @@
     border-width: 1px 0px 0px 0px;
 }
 
-/* Settings Sidebar */
-._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-sidebarRegion {
-    min-width: 230px;
-    max-width: 570px;
-}
-._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-sidebar {
-    padding: 16px 0px 16px 12px;
-}
-._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-sidebar .aa8da23faa27393c-side .aa8da23faa27393c-item {
-    margin-bottom: 0px;
-    padding-top: 5.7px;
-    padding-bottom: 5.7px;
-}
-
 .sidebarListRounded__5e434,
 .link__2ea32,
 .children__2ea32 * {
@@ -117,7 +104,7 @@
 
 /* Chat Emoji */
 .markup__75297 .emoji {
-        height: 1.75rem;
+    height: 1.75rem;
     width: 2rem;
 }
 .markup__75297 .emojiJumbo__75abc {
@@ -138,7 +125,7 @@
 }
 
 /* Quest Ads/Pop-up: Remove Button */
-.mask__0d616 {
+.mas__0d616 {
     display: none;
 }
 
