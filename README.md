@@ -1,5 +1,5 @@
 ### Minimalist Theme for Discord
-For now, this theme is very simplistic, it doesn’t change much, just the size of some bars, remove some useless stuff and that's it. It was mainly made for some friends and personal use, down the road I will try to add features included on my old theme, [MinimalNight](https://github.com/MonolithOrchids/MinimalNightTheme/tree/master).
+For now, this theme is very simple and minimalist. It doesn’t change much, only the size of some bars and the removal of unnecessary elements from the screen. It was mainly made for friends and personal use, so I don’t plan to add many changes beyond continuing to clean up the theme as much as possible.
 
 ### [**Vencord**](https://vencord.dev) or [**Vesktop**](https://github.com/Vencord/Vesktop):  
 - ***Method 1***: 
