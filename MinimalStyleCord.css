@@ -17,11 +17,11 @@
 }
 
 /* Text Chat */
-.b8880176888cc928-base.b8880176888cc928-typing {
+.base_b88801 .typing_b88801 {
     top:-24px !important;
 }
 
-.f75fb00fb7356cbe-channelTextArea {
+.channelTextArea_f75fb0 {
     margin-bottom: 0;
     padding-top: 2px;
     padding-bottom: 0;
@@ -30,63 +30,63 @@
     border-radius: 0;
 }
 
-._36d072eab2b2e737-messagesWrapper {
+.messagesWrapper__36d07 {
     top: -8px;
 }
-.visual-refresh .f75fb00fb7356cbe-form {
+.visual-refresh .form_f75fb0 {
     padding: 0px !important;
 }
 
 /* User/Member List */
-.c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap {
+.container_c8ffbb .membersWrap_c8ffbb {
     min-width: 240px;
 }
-.c8ffbb79449f399c-container,
-.c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-members {
+.container_c8ffbb,
+.container_c8ffbb .membersWrap_c8ffbb .members_c8ffbb {
     width: 240px;
 }
-.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-members ._5d473ecff348c314-member ._91a9d7f7e5248a56-layout {
+.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d {
     padding: 0px 0px 0px 12px;
     margin: 5px 0px 0px -14px;
 }
-.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-members ._5d473ecff348c314-member ._91a9d7f7e5248a56-layout ._91a9d7f7e5248a56-children {
+.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d .childContainer__91a9d {
     margin-left: 0px;
 }
 
 /* Group/Thread User/Member List Width Fix */
-.c8ffbb79449f399c-membersWrap,
-.c8ffbb79449f399c-membersWrap.c8ffbb79449f399c-hiddenMembers,
-.c8ffbb79449f399c-members {
+.membersWrap_c8ffbb,
+.membersWrap_c8ffbb.hiddenMembers_c8ffbb,
+.members_c8ffbb {
     min-width: 240px;
     width: 240px;
 }
-._5d473ecff348c314-member ._91a9d7f7e5248a56-container {
+.member__5d473 .container__91a9d {
     margin-left: 0px;
 }
 
 /* Remove Text Chat Useless Buttons */
-._24af7f4d0326ba4f-button[aria-label='Send a gift'],
-._740174f3d6a2c8fe-buttonContainer:has(._24af7f4d0326ba4f-button[aria-label='Open GIF picker']),
-._740174f3d6a2c8fe-buttonContainer:has(._24af7f4d0326ba4f-button[aria-label='Open sticker picker']),
+.button__24af7[aria-label='Send a gift'],
+.buttonContainer__74017:has(.button__24af7[aria-label='Open GIF picker']),
+.buttonContainer__74017:has(.button__24af7[aria-label='Open sticker picker']),
 .channelAppLauncher_e6e74f,
-.e6e74fd4d1221f53-buttonContainer,
+.buttonContainer_e6e74f,
 .app-launcher-entrypoint {
     display: none !important;
 }
 
 /* Center Emoji & Attach Buttons */
-._0923f156a0410684-attachWrapper, ._740174f3d6a2c8fe-buttons{
+.attachWrapper__0923f, .buttons__74017{
     margin: auto;
 }
 
 /* User Info/Panel */
-.visual-refresh ._37e49614b9f110a9-container {
+.visual-refresh .container__37e49 {
     padding: auto;
     margin: 2px;
     width: 100%;
 }
 
-.visual-refresh ._5e434347c823b592-panels {
+.visual-refresh .panels__5e434 {
     left: 0px;
     bottom: 0px;
     width: 100%;
@@ -109,50 +109,50 @@
     padding-bottom: 5.7px;
 }
 
-._5e434347c823b592-sidebarListRounded,
-._2ea32c412048f708-link,
-._2ea32c412048f708-children * {
+.sidebarListRounded__5e434,
+.link__2ea32,
+.children__2ea32 * {
   border-radius: 0 !important;
 }
 
 /* Chat Emoji */
-._752971923a1e6683-markup .emoji {
+.markup__75297 .emoji {
         height: 1.75rem;
     width: 2rem;
 }
-._752971923a1e6683-markup .emoji.jumboable {
+.markup__75297 .emojiJumbo__75abc {
     min-height: 2rem !important;
     min-width: 2rem;
 }
 
 /* Sticker In Chat */
-.abd7a8a2de1017e2-clickableSticker ._31fc2df9348cd84a-assetWrapper {
+.clickableSticker_abd7a8 .assetWrapper__31fc2 {
     width: 10rem !important;
     height: 10rem !important;
 }
 
 /* Activity Status / Recent Activity (Members List on Servers)  */
-.c8ffbb79449f399c-membersGroup:has(._095fe51feb41b3bb-headerContainer),
-._0f2e83213c878a13-container {
+.membersGroup_c8ffbb:has(div[role="button"]),
+.container__0f2e8 {
     display: none;
 }
 
 /* Quest Ads/Pop-up: Remove Button */
-._0d6162a4e6a4b802-mask {
+.mas__0d616 {
     display: none;
 }
 
 /* Remove 'Edit Image with Apps' Button  */
-._06ab41fd2ef7af3f-hoverButtonGroup {
+.hoverButtonGroup__06ab4 {
     display: none;
     }
 
 /* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular Add Reaction, Reply and More buttons  */
-.c19a557985eb7793-buttonContainer {
+.buttonContainer_c19a55 {
 [aria-label*="Click to react with"],
 [aria-label*="Click to remove"],
 [aria-label*="Forward"],
-    .f84418acfdbdfe54-separator {
+    .separator_f84418 {
     display: var(--Reaction-Forward-Message-Hover);
     }
 }
