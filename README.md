@@ -22,7 +22,7 @@ Huge thanks and credits to [Nakki](https://instagram.com/nak.kiwi) from [UnShitt
 Change **UI Density** at Appearance Settings to Compact.
 
 Also, as optional, you can also change some of the sizes like it's showed below:
-<img src="https://i.imgur.com/zSHQs2j.png" width=50% height=50%>
+<img src="https://i.imgur.com/HeO8wG0.png" width=75% height=75%>
 
 # Customizing the theme
 
