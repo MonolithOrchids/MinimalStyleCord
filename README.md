@@ -1,6 +1,8 @@
 ### Minimalist Theme for Discord
 For now, this theme is very simple and minimalist. It doesn’t change much, only the size of some bars and the removal of unnecessary elements from the screen. It was mainly made for friends and personal use, so I don’t plan to add many changes beyond continuing to clean up the theme as much as possible.
 
+<img src="https://i.imgur.com/mZdFDvy.gif">
+
 ### [**Vencord**](https://vencord.dev) or [**Vesktop**](https://github.com/Vencord/Vesktop):  
 - ***Method 1***: 
 	- Download [**MinimalNight.theme.css**](https://github.com/MonolithOrchids/MinimalStyleCord/blob/master/MinimalStyleCord.theme.css) and navigate to **Settings > Themes** and click **Open Themes Folder** or place the file in **%appdata%/Vencord/themes** and then enable **MinimalStyleCord**.    
