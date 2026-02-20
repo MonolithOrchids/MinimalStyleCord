@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.30
+ * @version 1.31
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -8,8 +8,8 @@
 */
 
 /* Credits to Nakki from "UnShittify Discord" for the following imports: */
-@import url("https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css");
-@import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
+@import url("https://nak.kiwi/unshittify-discord/UnShittifySource.theme.css");
+@import url("https://nak.kiwi/unshittify-discord/RoundIconsSource.theme.css");
 
 /* Toggle Options */
 :root {
