@@ -1,12 +1,13 @@
 /**
  * @name MinimalStyleCord
- * @version 1.0
+ * @version 1.31
  * @description Minimalist Theme for Discord
  * @author @dka
 */
 
 /* Credits to Nakki from "UnShittify Discord" for the following imports: */
-@import url("https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css");
-@import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
+@import url("https://nak.kiwi/unshittify-discord/UnShittifySource.theme.css");
+@import url("https://nak.kiwi/unshittify-discord/RoundIconsSource.theme.css");
 
 @import url("https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css");
+
