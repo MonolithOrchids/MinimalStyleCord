@@ -134,7 +134,7 @@
     display: none;
     }
 
-/* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular Add Reaction, Reply and More buttons  */
+/* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular 'Add Reaction', 'Reply' and 'More buttons'  */
 .buttonContainer_c19a55 {
 [aria-label*="Click to react with"],
 [aria-label*="Click to remove"],
