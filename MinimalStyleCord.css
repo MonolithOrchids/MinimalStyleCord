@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.32
+ * @version 1.33
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -110,6 +110,12 @@
 .markup__75297 .emojiJumbo__75abc {
     min-height: 2rem !important;
     min-width: 2rem;
+}
+
+/* User Replied To User */
+.repliedMessage_c19a55 .repliedTextPreview_c19a55 .markup__75297 .emoji {
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 /* Sticker In Chat */
