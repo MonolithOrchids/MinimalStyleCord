@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.31
+ * @version 1.32
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -103,7 +103,7 @@
 }
 
 /* Chat Emoji */
-.markup__75297 .emoji {
+.markup__75297 .emoji__040f0 {
     height: 1.75rem;
     width: 2rem;
 }
