@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.36
+ * @version 1.37
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -148,4 +148,9 @@
     .separator_f84418 {
     display: var(--Reaction-Forward-Message-Hover);
     }
+}
+
+/* Remove the new game ads pop-up at top right  */
+.container_f48e1f {
+    display: none !important;
 }
