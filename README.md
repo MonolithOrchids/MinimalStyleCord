@@ -1,5 +1,5 @@
 ### Minimalist Theme for Discord
-For now, this theme is very simple and minimalist. It doesn’t change much, only the size of some bars and the removal of unnecessary elements from the screen. It was mainly made for friends and personal use, so I don’t plan to add many changes beyond continuing to clean up the theme as much as possible.
+A very simple theme. It doesn’t make drastic changes, only the size of some bars, spaces, texts and the removal of unnecessary elements from the screen. It was mainly made for friends and personal use, so I don’t plan to add many changes beyond continuing to clean up the theme as much as possible.
 
 <img src="https://i.imgur.com/mZdFDvy.gif">
 
@@ -27,7 +27,7 @@ MinimalNight has certain unique variables that can easily be modified to change 
 
 ```css
 :root {
-    --Reaction-Forward-Message-Hover: none;             /* flex = ON, none = OFF */
+    --Reaction-Forward-Message-Hover: none;               /* flex = ON, none = OFF */
     --Favorite-Button-Hover-GIF: visible;                /* visible = ON | hidden = OFF */
     --GIF-Watermark: visible;                           /* visible = ON | hidden = OFF */
 }
