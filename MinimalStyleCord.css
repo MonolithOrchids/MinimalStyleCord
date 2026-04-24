@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.38
+ * @version 1.39
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -14,6 +14,24 @@
 /* Toggle Options */
 :root {
     --Reaction-Forward-Message-Hover: none;             /* flex = ON, none = OFF */
+    --Favorite-Button-Hover-GIF: visible;                /* visible = ON | hidden = OFF */
+    --GIF-Watermark: visible;                           /* visible = ON | hidden = OFF */
+}
+
+/* Chat Font Size (15px instead of default 16px) */
+.markup__75297 {
+    font-size: 15px !important;
+    line-height: 1.375rem !important;
+}
+
+/* Message Group Spacing (0px instead of default 16px) */
+.groupStart__5126c,
+.wrapper_c19a55,
+.cozyMessage__5126c {
+    margin-top: 0px !important;
+}
+.divider__5126c {
+    margin: 0px !important;
 }
 
 /* Text Chat */
@@ -140,7 +158,7 @@
     display: none;
     }
 
-/* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular 'Add Reaction', 'Reply' and 'More buttons'  */
+/* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular Add Reaction, Reply and More buttons  */
 .buttonContainer_c19a55 {
 [aria-label*="Click to react with"],
 [aria-label*="Click to remove"],
@@ -157,4 +175,26 @@
 
 .trailing_c38106 > :first-child .clickable__81391 {
     display: none !important;
+}
+
+/* Remove the Favorite Button while hover GIFs */
+.imageAccessory_af017a {
+    visibility: var(--Favorite-Button-Hover-GIF);
+}
+
+/* Hide the GIF badge/watermark */
+.gifTag_f60819 {
+    visibility: var(--GIF-Watermark);
+}
+
+/* Reduce the GIF badge/watermark size */
+.gifTag_f60819 {
+    transform: scale(0.5) !important;
+    transform-origin: top left !important;
+}
+
+/* Reduce the Favorite Button while hover GIFs size */
+.imageAccessory_af017a {
+    transform: scale(0.5) !important;
+    transform-origin: top left !important;
 }
