@@ -21,6 +21,10 @@ Huge thanks and credits to [Nakki](https://instagram.com/nak.kiwi) from [UnShitt
 ## Recommended
 Change **UI Density** at Appearance Settings to **Compact**.
 
+Also, as optional, you can also change **Text size in chat** to **15px** and **Space Between Message Groups** to **0px**:
+<img src="https://i.imgur.com/NMtiNaB.png" width=75% height=75%>
+<img src="https://i.imgur.com/fZqRkMo.png" width=75% height=75%>
+
 # Customizing the theme
 
 MinimalNight has certain unique variables that can easily be modified to change the visibility and width of certain elements. The code can either be added to the **MinimalStyleCord.theme.css** or the **Custom CSS** menu in Discord settings:
