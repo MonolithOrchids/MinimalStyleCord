@@ -3,7 +3,7 @@ A very simple theme. It doesn’t make drastic changes, only the size of some ba
 
 <img src="https://i.imgur.com/mZdFDvy.gif">
 
-### [**Vencord**](https://vencord.dev) or [**Vesktop**](https://github.com/Vencord/Vesktop):  
+### [**Equicord**](https://equicord.org/) & [**Vencord**](https://vencord.dev):  
 - ***Method 1***: 
 	- Download [**MinimalNight.theme.css**](https://github.com/MonolithOrchids/MinimalStyleCord/blob/master/MinimalStyleCord.theme.css) and navigate to **Settings > Themes** and click **Open Themes Folder** or place the file in **%appdata%/Vencord/themes** and then enable **MinimalStyleCord**.    
 - ***Method 2***: 
