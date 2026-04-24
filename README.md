@@ -19,10 +19,7 @@ Huge thanks and credits to [Nakki](https://instagram.com/nak.kiwi) from [UnShitt
 @import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
 ## Recommended
-Change **UI Density** at Appearance Settings to Compact.
-
-Also, as optional, you can also change some of the sizes like it's showed below:
-<img src="https://i.imgur.com/HeO8wG0.png" width=75% height=75%>
+Change **UI Density** at Appearance Settings to **Compact**.
 
 # Customizing the theme
 
@@ -30,6 +27,8 @@ MinimalNight has certain unique variables that can easily be modified to change 
 
 ```css
 :root {
-    --Reaction-Forward-Message-Hover: flex;		/* flex = ON, none = OFF */
+    --Reaction-Forward-Message-Hover: none;             /* flex = ON, none = OFF */
+    --Favorite-Button-Hover-GIF: visible;                /* visible = ON | hidden = OFF */
+    --GIF-Watermark: visible;                           /* visible = ON | hidden = OFF */
 }
 ```
