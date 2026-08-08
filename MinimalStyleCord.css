@@ -1,6 +1,6 @@
 /**
  * @name MinimalStyleCord
- * @version 1.47
+ * @version 1.48
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
@@ -60,6 +60,11 @@
 
 .chatTypingGradientAtBottom__36d07 { 
 	display: none;        /* disables black background on typing user */
+}
+
+.chatTypingGradientNotAtBottom__36d07 {
+    background: linear-gradient(to bottom, transparent, var(--background-base-lower) 35px, var(--background-base-lower) 100%);  /* lower the gradient color */
+    height: 35px;
 }
 
 .scrollerSpacer__36d07 {
