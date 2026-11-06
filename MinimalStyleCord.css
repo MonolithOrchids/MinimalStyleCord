@@ -1,15 +1,11 @@
 /**
  * @name MinimalStyleCord
- * @version 1.48
+ * @version 1.49
  * @description Minimalist Discord Theme
  * @source https://github.com/MonolithOrchids/MinimalStyleCord/
  * @updateUrl https://monolithorchids.github.io/MinimalStyleCord/MinimalStyleCord.css
  * @author @dka @hatakasy
 */
-
-/* Credits to Nakki from "UnShittify Discord" for the following imports: */
-@import url("https://medalzz.github.io/unshittify-discord/RoundIconsSource.theme.css");
-@import url("https://medalzz.github.io/unshittify-discord/RoundIconsSource.theme.css");
 
 /* Toggle Options */
 :root {
@@ -19,10 +15,10 @@
 }
 
 /* Text Chat */
-.base_b88801.typing_b88801,
-.typing_b88801.base_b88801.stop-animation.inTextChannel_b88801,
-.base_b88801 .typing_b88801,
-.base_b88801 {
+.base_U9Tvvz.typing_U9Tvvz,
+.typing_U9Tvvz.base_U9Tvvz.stop-animation.inTextChannel_U9Tvvz,
+.base_U9Tvvz .typing_U9Tvvz,
+.base_U9Tvvz {
     position: absolute !important;
     inset: auto 12px auto auto !important;
     left: 0px !important;
@@ -36,20 +32,20 @@
     pointer-events: none;
 }
 
-.typingDots_b88801 {
+.typingDots_U9Tvvz {
     background: none !important;
     background-color: transparent !important;
     box-shadow: none !important;
 }
 
-.typing_b88801 .text_b88801 {
+.typing_U9Tvvz .text_U9Tvvz {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
 }
 
-.channelTextArea_f75fb0 {
+.channelTextArea_z_gUBg {
     margin-bottom: 0;
     padding-top: 2px;
     padding-bottom: 5px;
@@ -58,83 +54,83 @@
     border-radius: 0;
 }
 
-.chatTypingGradientAtBottom__36d07 { 
+.chatTypingGradientAtBottom_8AE1Qq { 
 	display: none;        /* disables black background on typing user */
 }
 
-.chatTypingGradientNotAtBottom__36d07 {
+.chatTypingGradientNotAtBottom_8AE1Qq {
     background: linear-gradient(to bottom, transparent, var(--background-base-lower) 35px, var(--background-base-lower) 100%);  /* lower the gradient color */
     height: 35px;
 }
 
-.scrollerSpacer__36d07 {
+.scrollerSpacer_8AE1Qq {
     height: 15px !important;
 }
 
-.visual-refresh .form_f75fb0 {
+.visual-refresh .form_z_gUBg {
     padding: 0px !important;
 }
 
-.messagesWrapper__36d07 {
+.messagesWrapper_8AE1Qq {
     top: -8px;
 }
 
-.visual-refresh .form_f75fb0 {
+.visual-refresh .form_z_gUBg {
     padding: 0px !important;
     position: relative !important;
 }
 
 /* User/Member List */
-.container_c8ffbb .membersWrap_c8ffbb {
+.container_86es0b .membersWrap_86es0b {
     min-width: 240px;
 }
-.container_c8ffbb,
-.container_c8ffbb .membersWrap_c8ffbb .members_c8ffbb {
+.container_86es0b,
+.container_86es0b .membersWrap_86es0b .members_86es0b {
     width: 240px;
 }
-.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d {
+.membersWrap_86es0b .members_86es0b .member_Iy0c7A .layout_J1Adu_ {
     padding: 0px 0px 0px 12px;
     margin: 5px 0px 0px -14px;
 }
-.membersWrap_c8ffbb .members_c8ffbb .member__5d473 .layout__91a9d .childContainer__91a9d {
+.membersWrap_86es0b .members_86es0b .member_Iy0c7A .layout_J1Adu_ .childContainer_J1Adu_ {
     margin-left: 0px;
 }
 
 /* Group/Thread User/Member List Width Fix */
-.membersWrap_c8ffbb,
-.membersWrap_c8ffbb.hiddenMembers_c8ffbb,
-.members_c8ffbb {
+.membersWrap_86es0b,
+.membersWrap_86es0b.hiddenMembers_86es0b,
+.members_86es0b {
     min-width: 240px;
     width: 240px;
 }
-.member__5d473 .container__91a9d {
+.member_Iy0c7A .container_J1Adu_ {
     margin-left: 0px;
 }
 
 /* Remove Text Chat Useless Buttons */
-.button__24af7[aria-label='Send a gift'],
-.buttonContainer__74017:has(.button__24af7[aria-label='Open GIF picker']),
-.buttonContainer__74017:has(.button__24af7[aria-label='Open sticker picker']),
+.button_hfM7yP[aria-label='Send a gift'],
+.buttonContainer_2x8-Qn:has(.button_hfM7yP[aria-label='Open GIF picker']),
+.buttonContainer_2x8-Qn:has(.button_hfM7yP[aria-label='Open sticker picker']),
 .channelAppLauncher_e6e74f,
-.buttonContainer_e6e74f,
+.buttonContainer_s8hOwn,
 .spacer__74017,
 .app-launcher-entrypoint {
     display: none !important;
 }
 
 /* Center Emoji & Attach Buttons */
-.attachWrapper__0923f, .buttons__74017{
+.attachWrapper_7TM4SO, .buttons_2x8-Qn{
     margin: auto;
 }
 
 /* User Info/Panel */
-.visual-refresh .container__37e49 {
+.visual-refresh .container_g6VwXp {
     padding: auto;
     margin: 3px;
     width: 100%;
 }
 
-.visual-refresh .panels__5e434 {
+.visual-refresh .panels_pog62O {
     left: 0px;
     bottom: 0px;
     width: 100%;
@@ -143,37 +139,37 @@
     border-width: 1px 0px 0px 0px;
 }
 
-.sidebarListRounded__5e434,
-.link__2ea32,
-.children__2ea32 * {
+.sidebarListRounded_pog62O,
+.link_TNyK-N,
+.children_TNyK-N * {
   border-radius: 0 !important;
 }
 
 /* Chat Emoji */
-.markup__75297 .emoji {
+.markup_ku1OHH .emoji {
     height: 1.75rem;
     width: 2rem;
 }
-.markup__75297 .emojiJumbo__75abc {
+.markup_ku1OHH .emojiJumbo_lTEMT6 {
     min-height: 2rem !important;
     min-width: 2rem;
 }
 
 /* User Replied To User */
-.repliedMessage_c19a55 .repliedTextPreview_c19a55 .markup__75297 .emoji {
+.repliedMessage_2i8Bfm .repliedTextPreview_2i8Bfm .markup_ku1OHH .emoji {
     width: 1.2rem;
     height: 1.2rem;
 }
 
 /* Sticker In Chat */
-.clickableSticker_abd7a8 .assetWrapper__31fc2 {
+.clickableSticker_y33UtT .assetWrapper_1399Om {
     width: 10rem !important;
     height: 10rem !important;
 }
 
 /* Activity Status / Recent Activity (Members List on Servers)  */
-.membersGroup_c8ffbb:has(div[role="button"]),
-.container__0f2e8 {
+.membersGroup_86es0b:has(div[role="button"]),
+.container_g7esM5 {
     display: none;
 }
 
@@ -183,16 +179,16 @@
 }
 
 /* Remove 'Edit Image with Apps' Button  */
-.hoverButtonGroup__06ab4 {
+.hoverButtonGroup_n2rO26 {
     display: none;
     }
 
 /* Remove Favorite Reactions and Forward buttons when hover on messages - Leaving only regular Add Reaction, Reply and More buttons  */
-.buttonContainer_c19a55 {
+.buttonContainer_2i8Bfm {
 [aria-label*="Click to react with"],
 [aria-label*="Click to remove"],
 [aria-label*="Forward"],
-    .separator_f84418 {
+    .separator_DpHsW6 {
     display: var(--Reaction-Forward-Message-Hover);
     }
 }
@@ -202,28 +198,28 @@
     display: none !important;
 }
 
-.trailing_c38106 > :first-child .clickable__81391 {
+.trailing_3zSH5d > :first-child .clickable_fErCLM {
     display: none !important;
 }
 
 /* Remove the Favorite Button while hover GIFs */
-.imageAccessory_af017a {
+.imageAccessory_W6wEGA {
     visibility: var(--Favorite-Button-Hover-GIF);
 }
 
 /* Hide the GIF badge/watermark */
-.gifTag_f60819 {
+.gifTag_czU0Jw {
     visibility: var(--GIF-Watermark);
 }
 
 /* Reduce the GIF badge/watermark size */
-.gifTag_f60819 {
+.gifTag_czU0Jw {
     transform: scale(0.5) !important;
     transform-origin: top left !important;
 }
 
 /* Reduce the Favorite Button while hover GIFs size */
-.imageAccessory_af017a {
+.imageAccessory_W6wEGA {
     transform: scale(0.5) !important;
     transform-origin: top left !important;
 }
